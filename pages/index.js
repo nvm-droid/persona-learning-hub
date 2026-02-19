@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Head from "next/head";
-import { PERSONAS, P_MAP, TEAMS, TIMER_SECS, GAMES } from "./data";
+import { PERSONAS, P_MAP, TEAMS, TIMER_SECS, GAMES } from "./lib/data";
 
 function shuffle(a){const s=[...a];for(let i=s.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[s[i],s[j]]=[s[j],s[i]];}return s;}
 
